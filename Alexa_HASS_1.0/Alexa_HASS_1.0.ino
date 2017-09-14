@@ -2,9 +2,9 @@
 #include <PubSubClient.h>
 
 // Update these with values suitable for your network.
-const char* ssid = "TELUS1551";
-const char* password = "7804491737";
-const char* mqtt_server = "192.168.1.81";
+const char* ssid = "";
+const char* password = "";
+const char* mqtt_server = "";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
